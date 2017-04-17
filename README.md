@@ -7,7 +7,8 @@ Você foi convocado a participar do mais empolgante desafio de sua vida: acabar 
 
 Para isso ocorrerá um torneio onde o reino do vencedor terá o poder de controlar todos os outros em Valoran e precisamos que você desenvolva um sistema para gerenciar este torneio.
 
-**As regras são simples:**   
+As regras são simples:   
+-------------------------
 Os torneios tipicamente mata-mata são compostos por pequenos times e poucas chaves. 
 
 **Seu objetivo:** Criar um sistema com o básico para o gerenciamento de um torneio estilo mata-mata.
