@@ -1,4 +1,4 @@
-Perfil de Invocador
+Perfil do Invocador
 ========================
 
 **Nome completo:**   
@@ -6,7 +6,7 @@ Perfil de Invocador
 
 **Como nos conheceu:**
 
-**Nick no LOL:**   
+**Nick no LOL (opcional... por enquanto):**   
 **Perfil na STEAM:**
 
 
