@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "Montar lista do campeonato";
+}
+<div id="consulta">
+    <div class="row">
+        <div class="row">
+
+        </div>
+        <div class="row">
+            <table id="list"></table>
+            <div id="pager"></div>
+        </div>
+        <div class="row">
+            <input id="btnAdd" type="button" class="btn btn-primary" value="Adicionar Novo" disabled="disabled" />
+        </div>
+        <br />
+        <div class="row">
+            <table id="list1"></table>
+            <div id="pager1"></div>
+        </div>
+    </div>
+</div>
+<div id="cadastro">
+    <div class="form-group">
+        <label for="Name">Código</label>
+        <input type="text" class="form-control" id="IdChampionship" readonly="readonly">
+    </div>
+    <div class="form-group">
+        <table>
+            <tr>
+                <td>
+                    <label for="Name">Equipe 1</label>
+                    <input type="hidden" id="IdTeam1" />
+                    <input type="text" class="form-control" id="Name1" style="text-transform:uppercase">
+
+                </td>
+                <td> X </td>
+                <td>
+                    <label for="Name">Equipe 2</label>
+                    <input type="hidden" id="IdTeam2" />
+                    <input type="text" class="form-control" id="Name2" style="text-transform:uppercase">
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+    <input id="btnExcluir" type="button" class="btn btn-info" value="Excluir" />
+    <input id="btnCancelar" type="button" class="btn btn-danger" value="Cancelar" />
+</div>
+<script src="~/Scripts/AppScripts/registerChampionship.js"></script>

@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/jqGrid/css/ui.jqgrid.css" rel="stylesheet" />
+    <link href="~/Content/jquery-ui-1.12.1.custom/jquery-ui.theme.min.css" rel="stylesheet" />
+    <link href="~/Content/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/Content/jquery-ui-1.12.1.custom/jquery-ui.structure.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="row" id="messages"></div>
+    <br />
+    <div class="row">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("NIBO", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Cadastrar Regras", "Index", "RegisterRules")</li>
+                        <li>@Html.ActionLink("Cadastrar Times", "Index", "RegisterTeam")</li>
+                        <li>@Html.ActionLink("Cadastrar Fases", "Index", "RegisterPhase")</li>
+                        <li>@Html.ActionLink("Montar Chaves", "Index", "RegisterChampionship")</li>
+
+                        @*<li>@Html.ActionLink("Começar Jogo", "Index", "PlayGane")</li>*@
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container body-content">
+            <br />
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - Campeonato Mata Mata</p>
+            </footer>
+        </div>
+    </div>
+    <script src="~/Content/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <script src="~/Content/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/AppScripts/messages.js"></script>
+    <script src="~/Scripts/AppScripts/post.js"></script>
+    <script src="~/Content/jqGrid/js/minified/jquery.jqGrid.min.js"></script>
+    <script src="~/Content/jqGrid/js/i18n/grid.locale-en.js"></script>
+    <script src="~/Scripts/AppScripts/jqGridTrataMultiselect.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+E:\AppAndr\MataMata\DOMAIN\bin\Debug\DOMAIN.dll.config
+E:\AppAndr\MataMata\DOMAIN\bin\Debug\DOMAIN.dll
+E:\AppAndr\MataMata\DOMAIN\bin\Debug\DOMAIN.pdb
+E:\AppAndr\MataMata\DOMAIN\bin\Debug\EntityFramework.dll
+E:\AppAndr\MataMata\DOMAIN\bin\Debug\EntityFramework.SqlServer.dll
+E:\AppAndr\MataMata\DOMAIN\bin\Debug\EntityFramework.xml
+E:\AppAndr\MataMata\DOMAIN\bin\Debug\EntityFramework.SqlServer.xml
+E:\AppAndr\MataMata\DOMAIN\obj\Debug\DOMAIN.dll
+E:\AppAndr\MataMata\DOMAIN\obj\Debug\DOMAIN.pdb
+E:\AppAndr\MataMata\DOMAIN\obj\Debug\DOMAIN.csprojResolveAssemblyReference.cache

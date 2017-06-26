@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Cadastro de regras do campeonato";
+}
+
+<br />
+<div id="geral" class="row container">
+    <div id="consulta">
+        <div class="row">
+            <input id="btnAdd" type="button" class="btn btn-primary" value="Adicionar Novo" />
+        </div>
+        <div class="row">
+            <table id="list"></table>
+            <div id="pager"></div>
+        </div>
+    </div>
+    <div id="cadastro" style="display:none">
+        <div class="form-group">
+            <label for="Name">Código</label>
+            <input type="number" class="form-control" id="IdRules" readonly="readonly">
+        </div>
+        <div class="form-group">
+            <label for="Name">Minimo de pontos</label>
+            <input type="number" class="form-control" id="MinScore" style="text-transform:uppercase">
+        </div>
+        <div class="form-group">
+            <label for="Name">Maximo de pontos</label>
+            <input type="number" class="form-control" id="MaxScore" style="text-transform:uppercase">
+        </div>
+        <div class="form-group">
+            <label for="Name">Numero de participantes</label>
+            <input type="number" class="form-control" id="NumberOfPaticipants" style="text-transform:uppercase">
+        </div>
+        <div class="form-group">
+            <label for="Name">Numero de fases</label>
+            <input type="number" class="form-control" id="NumberOfStages" style="text-transform:uppercase">
+        </div>
+
+
+        <input id="btnSalvar" type="button" class="btn btn-primary" value="Salvar" />
+        <input id="btnExcluir" type="button" class="btn btn-info" value="Excluir" />
+        <input id="btnCancelar" type="button" class="btn btn-danger" value="Cancelar" />
+    </div>
+</div>
+<script src="~/Scripts/AppScripts/registerRules.js?revision_1"></script>
+
