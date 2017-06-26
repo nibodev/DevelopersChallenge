@@ -99,6 +99,11 @@ namespace MataMata.Controllers
                 else
                 {
                     var rule = listRules[0];
+                    if (rule.NumberOfPaticipants <= listaTeams.Count)
+                    {
+                        listaTeams.Add(pTeams);
+                    }
+                    
                     if (rule.ValidationNumberOfParticipants(listaTeams.Count()))
                     {
                         pTeams.Name = pTeams.Name.ToUpper();

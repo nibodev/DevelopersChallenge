@@ -11,3 +11,16 @@ E:\AppAndr\MataMata\INFRA\bin\Debug\EntityFramework.xml
 E:\AppAndr\MataMata\INFRA\bin\Debug\EntityFramework.SqlServer.xml
 E:\AppAndr\MataMata\INFRA\obj\Debug\INFRA.dll
 E:\AppAndr\MataMata\INFRA\obj\Debug\INFRA.pdb
+C:\Users\Carlos\Source\Repos\DevelopersChallenge\INFRA\bin\Debug\ProvaMataMata.mdf
+C:\Users\Carlos\Source\Repos\DevelopersChallenge\INFRA\bin\Debug\ProvaMataMata_log.ldf
+C:\Users\Carlos\Source\Repos\DevelopersChallenge\INFRA\bin\Debug\INFRA.dll
+C:\Users\Carlos\Source\Repos\DevelopersChallenge\INFRA\bin\Debug\INFRA.pdb
+C:\Users\Carlos\Source\Repos\DevelopersChallenge\INFRA\bin\Debug\DOMAIN.dll
+C:\Users\Carlos\Source\Repos\DevelopersChallenge\INFRA\bin\Debug\EntityFramework.dll
+C:\Users\Carlos\Source\Repos\DevelopersChallenge\INFRA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Carlos\Source\Repos\DevelopersChallenge\INFRA\bin\Debug\DOMAIN.pdb
+C:\Users\Carlos\Source\Repos\DevelopersChallenge\INFRA\bin\Debug\EntityFramework.xml
+C:\Users\Carlos\Source\Repos\DevelopersChallenge\INFRA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Carlos\Source\Repos\DevelopersChallenge\INFRA\obj\Debug\INFRA.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Source\Repos\DevelopersChallenge\INFRA\obj\Debug\INFRA.dll
+C:\Users\Carlos\Source\Repos\DevelopersChallenge\INFRA\obj\Debug\INFRA.pdb
