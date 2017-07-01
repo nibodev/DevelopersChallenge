@@ -1,12 +1,6 @@
-Perfil do Invocador
-========================
+Perfil do Invocador: https://github.com/carlosbuenos/MataMata.git
 
-**Nome completo:**   
-**Data de nascimento:**   
+Nome completo: CARLOS ROBERTO CARDOSO DOS REIS BUENO
+Dados de nascimento:01/06/1985
 
-**Como nos conheceu:**
-
-**Nick no LOL (opcional... por enquanto):**   
-**Perfil na STEAM:**
-
-
+Como nos conheceu: através do rh Amanda.

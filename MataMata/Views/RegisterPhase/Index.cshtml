@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Cadastrar fases do campeonato";
+}
+
+<div id="geral" class="row container">
+    <div id="consulta">
+        <div class="row">
+            <input id="btnAdd" type="button" class="btn btn-primary" value="Adicionar Novo" />
+        </div>
+        <div class="row">
+            <table id="list"></table>
+            <div id="pager"></div>
+        </div>
+    </div>
+    <div id="cadastro" style="display:none">
+        <div class="form-group">
+            <label for="Name">Código</label>
+            <input type="text" class="form-control" id="IdPhase" readonly="readonly">
+        </div>
+        <div class="form-group">
+            <label for="Name">Fase</label>
+            <input type="text" class="form-control" id="Name" style="text-transform:uppercase">
+        </div>
+
+
+        <input id="btnSalvar" type="button" class="btn btn-primary" value="Salvar" />
+        <input id="btnExcluir" type="button" class="btn btn-info" value="Excluir" />
+        <input id="btnCancelar" type="button" class="btn btn-danger" value="Cancelar" />
+    </div>
+</div>
+
+<script src="~/Scripts/AppScripts/registerPhase.js?revision_1"></script>
