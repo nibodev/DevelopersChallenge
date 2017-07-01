@@ -92,6 +92,7 @@ namespace MataMata.Controllers
 
                 var listRules = _rules.GetList().ToList();
                 var listaTeams = _team.GetAllList();
+                
                 if (pTeams.IdTeam != 0)
                 {
                     pTeams.Name = pTeams.Name.ToUpper();
