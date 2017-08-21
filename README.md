@@ -12,7 +12,7 @@ Regras
 Os torneios tipicamente mata-mata são compostos por times e chaves, onde são gerados os vencedores de cada chave até chegar ao grande vencedor do torneio.
 Seu objetivo é criar um sistema onde é possível cadastrar os times e gerenciar o torneio até a fase final, onde poderemos eleger o vencedor.
 
-![Formato do torneio](torneio.jpg)
+![Formato do torneio](torneio.jpeg)
 
 - Você deverá desenvolver uma solução **WEB** em C# .NET utilizando os frameworks, tecnologias e conceitos que julgar melhor (mas não queremos nada em Webforms :D)
 - Queremos como resultado uma solução simples, legível e de qualidade. 
