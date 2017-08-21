@@ -7,27 +7,28 @@ Você foi convocado a participar do mais empolgante desafio de sua vida: acabar 
 
 Para isso ocorrerá um torneio onde o reino do vencedor terá o poder de controlar todos os outros em Valoran e precisamos que você desenvolva um sistema para gerenciar este torneio.
 
-As regras são simples:   
+Regras
 -------------------------
-Os torneios tipicamente mata-mata são compostos por pequenos times e poucas chaves. 
+Os torneios tipicamente mata-mata são compostos por times e chaves, onde são gerados os vencedores de cada chave até chegar ao grande vencedor do torneio.
+Seu objetivo é criar um sistema onde é possível cadastrar os times e gerenciar o torneio até a fase final, onde poderemos eleger o vencedor.
 
-**Seu objetivo:** Criar um sistema com o básico para o gerenciamento de um torneio estilo mata-mata.
+![Formato do torneio](torneio.jpg)
 
-- Você deverá desenvolver uma solução em C# .NET utilizando os frameworks e tecnologias que julgar melhor.
-- Queremos, como resultado, uma solução simples, legível e com qualidade. 
-- Código feito e comentado em inglês, por favor.
+- Você deverá desenvolver uma solução **WEB** em C# .NET utilizando os frameworks, tecnologias e conceitos que julgar melhor (mas não queremos nada em Webforms :D)
+- Queremos como resultado uma solução simples, legível e de qualidade. 
+- Código feito e comentado em **inglês** please.
 - Não utilize soluções prontas. Nós as conhecemos.
-- Seja criativo. Você decide quais funcionalidades irá incluir.
+- Seja criativo. Você decide quais funcionalidades irá incluir além dos requisitos.
 
 Envio da solução
 -------------------------
 
-Ao final, você deverá criar um fork do repositório deste desafio incluindo o seu código fonte, o seu currículo dentro da pasta "_about" e com o formulário "_about/SummonerProfile.md" preenchido e enviar para dev@nibo.com.br o link deste fork.
+Ao final, você deverá criar um fork deste repositório, incluir o seu código fonte, incluir o seu currículo dentro da pasta "_about",  preencher o formulário "_about/Profile.md" e enviar para dev@nibo.com.br o link do seu fork.
 
 Tenha capricho com seu código e com o resultado final. Essa é a sua chance de entrar para o melhor time, na startup que mais cresce no Brasil.
 
 "Domine à si mesmo, e dominará seu inimigo" - Lee Sin
 
-__NIBO - Desenvolvimento de alta performance para geeks inquietos__
+**NIBO - Desenvolvimento de alta performance para geeks inquietos**
 
 Boa sorte :D
