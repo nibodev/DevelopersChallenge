@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>Duelos de Mundos</title>
+    <meta charset="utf-8" />
+
+
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/style.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+
+    <script src="app/app.js"></script>
+    <script src="app/route.js"></script>
+
+    <!--Services-->
+    <script src="app/services/gameService.js"></script>
+
+    <!--Controllers-->
+    <script src="app/controllers/gameController.js"></script>
+
+
+</head>
+<body>
+
+    <div class="container">
+        <div ng-view></div>
+    </div>
+</body>
+</html>

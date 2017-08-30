@@ -1,0 +1,43 @@
+﻿
+<div class="jumbotron text-center">
+    <h3>Cadastro de Duelos</h3>
+    <hr />
+    <h2>Selecione os times</h2>
+</div>
+
+    <div class="row text-center" ng-init="vm.consultTeams()">
+
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label for="sel1">CHAVE A </label>
+                <select class="form-control" ng-model="vm.model.TeamFirstId" ng-options="x.Name for x in vm.team  | filter : {Key: 'A'}">
+                    <option disabled selected value="">-- Selecione o time --</option>
+                </select>
+
+            </div>
+
+            <div class="form-group col-md-6">
+                <label for="sel2">CHAVE B </label>
+                <select class="form-control" ng-model="vm.model.TeamSecondId" ng-options="x.Name for x in vm.team | filter : {Key: 'B'}">
+                    <option selected="selected" value="">-- Selecione o time --</option>
+                </select>
+            </div>
+        </div>
+
+
+    <div class="container">
+        <button class="btn btn-info" ng-click="vm.create()">ADICIONAR DUELO</button>
+    </div>
+    <br />
+
+        <div class="alert alert-info" role="alert" ng-if="vm.mensagem.length">
+           <strong>{{vm.mensagem}}</strong>
+        </div>
+ 
+
+        <div class="alert alert-success"  role="alert" ng-if="vm.team.length == 1">
+            <strong>O Vencedor do torneio é {{vm.team[0].Name}}... Parabéns!!!</strong>
+        </div>
+
+
+</div>

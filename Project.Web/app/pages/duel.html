@@ -1,0 +1,30 @@
+﻿
+
+
+
+<div class="jumbotron text-center">
+    <h2>Duelos</h2>
+</div>
+<div class="row text-center" ng-init="vm.duels()">
+
+    <h3>Duelos a serem realizados</h3>
+    <p>
+        Selecione o vencedor do duelo e clique em finalizar partida.
+    </p>
+
+    <div class="container">
+        <div class="row form-group borda" ng-repeat="t in vm.team">
+            <br />
+            <div style="margin-bottom:15px">
+                <input type="radio" name="nameA" ng-model="vm.model.Team" ng-value="{Team:{{t.SecondTeamId}}, TeamRelation:{{t.TeamId}} }" />
+                <strong>{{t.NameA}} X {{t.NameB}}</strong> 
+                <input type="radio" name="nameB" ng-model="vm.model.Team" ng-value="{Team:{{t.FirstTeamId}}, TeamRelation:{{t.TeamId}} }" />
+                <button class="btn btn-danger" ng-click="vm.finalize()">FINALIZAR PARTIDA</button>
+
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
