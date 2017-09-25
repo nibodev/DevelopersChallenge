@@ -1,0 +1,67 @@
+﻿@model List<ApplicationSummoners.Models.Kingdom>
+@{
+    ViewBag.Title = "Battle";
+}
+
+<h2>Battle</h2>
+
+<br><br>
+@if (Model.Count < 4)
+{
+    <h3>Could not generate battles</h3>
+    <div class="btn btn-danger" id="btnReturn" title="Save">Return</div>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-3">
+            <div class="col-2">
+                <input class="form-control" type="text" value="@Model[0].Name" disabled />
+                <input type="hidden" id="kingdomQuart1" value="@Model[0].Id" />
+            </div>
+            <br>
+            <div class="col-2">
+                <input class="form-control" type="text" value="@Model[1].Name" disabled />
+                <input type="hidden" id="kingdomQuart2" value="@Model[1].Id" />
+            </div>
+            <br><br><br><br>
+            <div class="col-2">
+                <input class="form-control" type="text" value="@Model[2].Name" disabled />
+                <input type="hidden" id="kingdomQuart3" value="@Model[2].Id" />
+            </div>
+            <br>
+            <div class="col-2">
+                <input class="form-control" type="text" value="@Model[3].Name" disabled />
+                <input type="hidden" id="kingdomQuart4" value="@Model[3].Id" />
+            </div>
+        </div>
+        <div class="col-md-1">
+            <br>
+            <div id="linkQuart1" class="btn" title="Click to view winner"><img src="~/Images/victory.jpg" id="imgVict"/></div>
+            <br><br><br><br><br>
+            <div id="linkQuart2" class="btn" title="Click to view winner"><img src="~/Images/victory.jpg" id="imgVict" /></div>
+        </div>
+        <div class="col-md-3">
+            <br><br>
+            <input class="form-control" id="kingdomNameSemi1" type="text" placeholder="Winner of the battle 1" disabled />
+            <input type="hidden" id="kingdomIdSemi1" value="" />
+            <br><br><br><br><br>
+            <input class="form-control" id="kingdomNameSemi2" type="text" placeholder="Winner of the battle 2" disabled />
+            <input type="hidden" id="kingdomIdSemi2" value="" />
+        </div>
+        <div class="col-md-1">
+            <br><br><br><br>
+            <div id="linkEnd" class="btn" title="Click to see champion"><img src="~/Images/victory.jpg" id="imgVict" /></div>
+        </div>
+        <div class="col-md-4">
+            <br><br><br><br><br>
+            <img src="~/Images/winner.jpg" id="imgWinner"/>
+            <input class="form-control" id="kingdomWinner" type="text" placeholder="The champion..." disabled />
+        </div>
+    </div>
+}
+
+
+@section scripts{
+    <script src="~/Scripts/views/battle.js"></script>
+}
