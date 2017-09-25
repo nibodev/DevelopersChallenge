@@ -1,0 +1,112 @@
+﻿@model List<ApplicationSummoners.Models.Kingdom>
+@{
+    ViewBag.Title = "Kingdoms";
+}
+
+<fieldset>
+    <legend>Register the kingdoms - Required 4 kingdoms to start the battle</legend>
+    <div class="row">
+        <form class="form-inline">
+            <div class="col-md-2">
+                <div class="form-group">
+                    Name:
+                    <input type="text" class="form-control" id="nameKingdom">
+                </div>
+
+                <div class="row" style="margin-left:auto">
+                    <div class="col-md-3">
+                        <div class="row">
+                            <div class="label lbReg">Giants:</div>
+                            <div><input id="giantsKingdom" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0" /></div>
+                        </div>
+                        <div class="row">
+                            <div class="label lbReg">Swordsmen:</div>
+                            <div><input id="swordmenKingdom" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0" /></div>
+                        </div>
+                        <div class="row">
+                            <div class="label lbReg">Archers:</div>
+                            <div><input id="archersKingdom" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0" /></div>
+                        </div>
+                        <div class="row">
+                            <div class="label lbReg">Launchers:</div>
+                            <div><input id="launchersKingdom" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0" /></div>
+                        </div>
+                        <div class="row">
+                            <div class="label lbReg">Beaters:</div>
+                            <div><input id="beatersKingdom" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0" /></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <br><br><br><br>
+                    <div class="btn btn-primary" id="btnSave" title="Save">Save Kingdom</div>
+                </div>
+                
+            </div>
+            <div class="col-md-7">
+                <div id="displayTabela" class="tabela">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Giants</th>
+                                            <th>Swordsmen</th>
+                                            <th>Archers</th>
+                                            <th>Launchers</th>
+                                            <th>Beaters</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody id="bodyList">
+                                        @if (Model != null)
+                                        {
+                                            foreach (var item in Model)
+                                            {
+                                                <tr id="lineDelete_@item.Id">
+                                                    <td>@item.Name</td>
+                                                    <td>@item.Giants</td>
+                                                    <td>@item.Swordsmen</td>
+                                                    <td>@item.Archers</td>
+                                                    <td>@item.Launchers</td>
+                                                    <td>@item.Beaters</td>
+                                                    <td><div id="btnDelete_@item.Id" class="btn btnDelete"><img src="~/Images/delete.png" /></div></td>
+                                                </tr>
+                                            }
+                                        }
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1">
+                            </div>
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+                                    <br><br>
+                                    <div class="btn btn-success btn-lg" id="start" title="Start Battle">Start Battle</div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-5">
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </form>
+
+    </div>
+</fieldset>
+
+@section scripts{
+    <script src="~/Scripts/views/kingdoms.js"></script>
+}
