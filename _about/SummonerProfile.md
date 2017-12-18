@@ -3,10 +3,6 @@ Perfil do Invocador
 
 **Nome completo:**   
 **Data de nascimento:**   
+**Endereço LinkedIn:**   
 
-**Como nos conheceu:**
-
-**Nick no LOL (opcional... por enquanto):**   
-**Perfil na STEAM:**
-
-
+**Como nos conheceu:**   
